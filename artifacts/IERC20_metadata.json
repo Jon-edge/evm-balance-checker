@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BalanceChecker.sol": "IERC20"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BalanceChecker.sol": {
+			"keccak256": "0xf1285df06813b8cae04ab0ac216289251a8a52b81957a87048939e38d16ea591",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cb20821a154e557d8388b1511a44ed6dadd8497eba0377c1d242eeacc4db1c81",
+				"dweb:/ipfs/QmaU8GT3MuqcxPUQK9xR9gX5NsfCTEuRR68Q3aCkqh1wbg"
+			]
+		}
+	},
+	"version": 1
+}
